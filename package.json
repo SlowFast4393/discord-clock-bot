@@ -1,0 +1,17 @@
+{
+  "name": "discord-clock-bot",
+  "version": "1.0.0",
+  "description": "Renames a Discord channel with the current time on a schedule.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js"
+  },
+  "engines": {
+    "node": ">=18"
+  },
+  "dependencies": {
+    "discord.js": "^14.15.3",
+    "dotenv": "^16.4.5"
+  }
+}
